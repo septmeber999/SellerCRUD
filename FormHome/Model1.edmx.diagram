@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="95ac39e9932a4e5e9293f179255f25cb" Name="Diagram1">
+        <EntityTypeShape EntityType="iSpan.DessertShop2023JanModel.Administrators" Width="1.5" PointX="5.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="iSpan.DessertShop2023JanModel.BlacklistedMembers" Width="1.5" PointX="7.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="iSpan.DessertShop2023JanModel.Categories" Width="1.5" PointX="3.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="iSpan.DessertShop2023JanModel.Coupons" Width="1.5" PointX="9.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="iSpan.DessertShop2023JanModel.LoginHistory" Width="1.5" PointX="0.75" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="iSpan.DessertShop2023JanModel.MemberAddresses" Width="1.5" PointX="2.75" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="iSpan.DessertShop2023JanModel.Members" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iSpan.DessertShop2023JanModel.MemberServiceDetails" Width="1.5" PointX="4.75" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="iSpan.DessertShop2023JanModel.MemberServiceRecord" Width="1.5" PointX="6.75" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="iSpan.DessertShop2023JanModel.OrderDetails" Width="1.5" PointX="11.25" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="iSpan.DessertShop2023JanModel.Orders" Width="1.5" PointX="3" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="iSpan.DessertShop2023JanModel.ProductFlavors" Width="1.5" PointX="8.25" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="iSpan.DessertShop2023JanModel.Products" Width="1.5" PointX="6" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="iSpan.DessertShop2023JanModel.ProductSizes" Width="1.5" PointX="8.25" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="iSpan.DessertShop2023JanModel.Sellers" Width="1.5" PointX="0.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="iSpan.DessertShop2023JanModel.SellerServiceDetails" Width="1.5" PointX="8.75" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="iSpan.DessertShop2023JanModel.SellerServiceRecord" Width="1.5" PointX="10.75" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="iSpan.DessertShop2023JanModel.Suspensions" Width="1.5" PointX="11.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="iSpan.DessertShop2023JanModel.sysdiagrams" Width="1.5" PointX="12.75" PointY="12" IsExpanded="true" />
+        <AssociationConnector Association="iSpan.DessertShop2023JanModel.FK_Products_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="iSpan.DessertShop2023JanModel.FK_Orders_Members" ManuallyRouted="false" />
+        <AssociationConnector Association="iSpan.DessertShop2023JanModel.FK_OrderDetails_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="iSpan.DessertShop2023JanModel.FK_OrderDetails_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="iSpan.DessertShop2023JanModel.FK_Orders_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="iSpan.DessertShop2023JanModel.FK_Orders_Sellers" ManuallyRouted="false" />
+        <AssociationConnector Association="iSpan.DessertShop2023JanModel.FK_Flavors_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="iSpan.DessertShop2023JanModel.FK_Products_Sellers" ManuallyRouted="false" />
+        <AssociationConnector Association="iSpan.DessertShop2023JanModel.FK_Sizes_Products" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
